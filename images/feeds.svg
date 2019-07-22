@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.25" height="7.94" viewBox="0 0 37.25 7.94">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #231f20;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5, .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0.22px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-5 {
+        stroke-width: 0.25px;
+      }
+
+      .cls-4 {
+        fill: #231f20;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-6 {
+        stroke: #bf2829;
+        stroke-width: 0.34px;
+      }
+
+      .cls-7 {
+        stroke: #499b45;
+        stroke-width: 0.45px;
+      }
+    </style>
+  </defs>
+  <title>feeds</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-1" x="0.99" y="1.24" width="5.48" height="6.59" rx="0.88" ry="0.88"/>
+    <rect class="cls-2" x="0.11" y="0.9" width="7.24" height="0.99"/>
+    <line class="cls-1" x1="2.35" y1="3.04" x2="2.35" y2="6.7"/>
+    <line class="cls-1" x1="3.74" y1="3.04" x2="3.74" y2="6.7"/>
+    <line class="cls-1" x1="5.13" y1="3.04" x2="5.13" y2="6.7"/>
+    <rect class="cls-2" x="2.34" y="0.11" width="2.79" height="0.79"/>
+  </g>
+  <g id="Layer_5" data-name="Layer 5">
+    <path class="cls-3" d="M99.4,6.1" transform="translate(-2.14 -1.74)"/>
+    <rect class="cls-4" x="16.42" y="2.52" width="1.81" height="7.58" rx="0.12" ry="0.12" transform="translate(7.39 -12.14) rotate(45)"/>
+    <path class="cls-4" d="M14.16,8.2" transform="translate(-2.14 -1.74)"/>
+    <polyline class="cls-4" points="11.92 7.82 11.92 6.55 13.19 7.82"/>
+    <line class="cls-5" x1="11.92" y1="6.5" x2="13.27" y2="7.85"/>
+    <line class="cls-5" x1="16.16" y1="2.17" x2="17.57" y2="3.58"/>
+    <line class="cls-6" x1="33.4" y1="2.48" x2="37.13" y2="6.21"/>
+    <line class="cls-6" x1="33.4" y1="6.21" x2="37.13" y2="2.48"/>
+  </g>
+  <g id="Layer_6" data-name="Layer 6">
+    <line class="cls-7" x1="24.17" y1="4.26" x2="25.59" y2="5.68"/>
+    <line class="cls-7" x1="25.43" y1="5.83" x2="28.86" y2="2.4"/>
+  </g>
+</svg>
