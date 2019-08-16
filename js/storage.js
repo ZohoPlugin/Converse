@@ -29,8 +29,6 @@ function getStorage(key) {
     var now = Date.now();  //epoch time, lets deal only with integer
     // set expiration for storage
     var expiresIn = localStorage.getItem(key+'_expiresIn');
-    console.log(now);
-    console.log(expiresIn);
     if (expiresIn===undefined || expiresIn===null) { expiresIn = 0; }
 
     if (expiresIn < now) {// Expired
@@ -65,9 +63,8 @@ function setStorage(key, value, expires) {
     }
 
     var now = Date.now();  //millisecs since epoch time, lets deal only with integer
-    console.log(now);
     var schedule = now + expires*1000; 
-    console.log(schedule);
+
     try {
         localStorage.setItem(key, value);
         localStorage.setItem(key + '_expiresIn', schedule);
@@ -75,5 +72,6 @@ function setStorage(key, value, expires) {
         console.log('setStorage: Error setting key ['+ key + '] in localStorage: ' + JSON.stringify(e) );
         return false;
     }
+    
     return true;
 }
